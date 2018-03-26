@@ -23,7 +23,6 @@
 
 //usuwanie
   $("ul").on("click", "i", function(event){
-    console.log("Kasia jest super");
     $(this).closest("li").remove();
   });
 
